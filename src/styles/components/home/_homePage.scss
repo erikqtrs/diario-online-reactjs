@@ -1,0 +1,21 @@
+.main__home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__home {
+    color: rgb(203, 208, 253);
+    text-align: center;
+}
+
+.header__logo {
+    font-size: 3.4rem;
+}
+
+.header__home h1 {
+    font-size: 1.6rem;
+    margin-top: 8px;
+}

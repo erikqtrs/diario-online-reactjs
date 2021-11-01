@@ -1,0 +1,60 @@
+.theme-black {
+    background-color: black;
+    .header__dashboard {
+        background-color: black;
+        color: white;
+        .btn__logout {
+            color: white;
+            border: 3px solid white;
+        }
+    }
+
+    .dashboard__content {
+        aside {
+            background-color: black;
+            color: rgb(255, 255, 255);
+        }
+
+        .page__content {
+            background-color: black;
+            color: rgb(255, 255, 255);
+            .note__entry {
+                background-color: rgb(173, 173, 173);
+                color: black;
+            }
+            .form__group:nth-of-type(1) select option {
+                background-color: black;
+            }
+            .appbar {
+                background-color: rgb(0, 0, 0);
+                color: white;
+                .btn__appbar {
+                    border: 2px solid rgb(255, 255, 255);
+                    color: rgb(255, 255, 255);
+                }
+            }
+            input, select, textarea {
+                color: white;
+            }
+
+            option {
+                background-color: rgb(0, 0, 0);
+                color: white;
+            }
+
+            .form__data input {
+                border-bottom: 2px solid white;
+            }
+
+            .btn__account-data {
+                background-color: rgb(173, 173, 173);
+            }
+
+            .camera-icon {
+                color: white;
+            }
+        }
+        
+    }
+
+}

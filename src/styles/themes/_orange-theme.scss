@@ -1,0 +1,68 @@
+.theme-orange {
+    background-color: rgb(173, 74, 7);
+    .header__dashboard {
+        background-color: rgb(173, 74, 7);
+        color: rgb(255, 255, 255);
+        .btn__logout {
+            color: white;
+            border: 3px solid white;
+        }
+    }
+
+    .dashboard__content {
+        aside {
+            background-color: rgb(173, 74, 7);
+            color: rgb(255, 255, 255);
+
+        }
+
+        .nav__link {
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+            font-size: 1.4rem;
+        }
+
+        .page__content {
+            background-color: rgb(236, 215, 193);
+            color: rgb(0, 0, 0);
+            .note__entry {
+                background-color: rgb(8, 8, 8);
+                color: white;
+            }
+            .appbar {
+                background-color: rgb(209, 101, 0);
+                color: rgb(0, 0, 0);
+                .btn__appbar {
+                    border: 4px solid rgb(0, 0, 0);
+                    color: rgb(253, 253, 253);
+                }
+            }
+
+            .form__data label {
+                color: rgb(5, 5, 5);
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+            .form__data input {
+                border-bottom: 2px solid rgb(0, 15, 43);
+            }
+
+            option {
+                background-color: rgb(173, 74, 7);
+                color: white;
+            }
+
+            .btn__account-data {
+                background-color: rgb(209, 101, 0);
+                color: white;
+            }
+            .btn__account-password {
+                background-color: rgb(209, 101, 0);
+                color: white;
+            }
+
+        }
+        
+    }
+
+}

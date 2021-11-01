@@ -1,0 +1,44 @@
+.theme-pink {
+    background-color: rgb(143, 7, 143);
+
+    .header__dashboard {
+        background-color: rgb(143, 7, 143);
+        color: white;
+
+        .btn__logout {
+            color: white;
+            border: 3px solid white;
+        }
+    }
+
+    .dashboard__content {
+        aside {
+            background-color: rgb(143, 7, 143);
+            color: white;
+        }
+
+        .page__content {
+            background-color: rgb(231, 179, 231);
+            color: rgb(134, 2, 123);
+            .note__entry {
+                background-color: rgb(114, 4, 105);
+                color: white;
+            }
+
+            option {
+                background-color: rgb(143, 7, 143);
+                color: white;
+            }
+            .appbar {
+                background-color: rgb(134, 2, 123);
+                color: white;
+                .btn__appbar {
+                    border: 2px solid rgb(214, 181, 207);
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+        
+    }
+
+}

@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    background: #c709a1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #c709a1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #c709a1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn {
+    border: transparent;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 600;
+    height: 35px;
+    outline: none;
+    position: relative;
+    width: 80px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0px; left: 0px;
+    background-color: rgba(0, 0, 0, .2);
+    width: 0%;
+    height: 100%;
+    border-radius: 8px;
+    transition: all .4s linear;
+}
+
+.btn:hover::before {
+    width: 100%;
+}
+
+.page {
+    width: 100%;
+    min-height: 90vh;
+    background-color: rgb(153, 185, 233);
+}
+
+.main__page {
+    width: 100%;
+    min-height: 100vh;
+    margin-left: -200px;
+    padding-bottom: 20px;
+}
+
+input:focus {
+    outline: none;
+}

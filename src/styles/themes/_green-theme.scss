@@ -1,0 +1,63 @@
+.theme-green {
+    background-color: rgb(2, 71, 5);
+    .header__dashboard {
+        background-color: rgb(2, 71, 5);
+        color: white;
+
+        .btn__logout {
+            color: white;
+            border: 3px solid white;
+        }
+    }
+
+    .dashboard__content {
+        aside {
+            background-color: rgb(2, 71, 5);
+            color: rgb(195, 209, 201);
+        }
+
+        .page__content {
+            background-color: rgb(196, 224, 196);
+            color: rgb(2, 71, 5);
+            .note__entry {
+                background-color: rgb(1, 54, 4);
+                color: white;
+            }
+            .appbar {
+                background-color: rgb(2, 71, 5);
+                color: white;
+                .btn__appbar {
+                    border: 2px solid rgb(180, 205, 241);
+                    color: rgb(180, 205, 241);
+                }
+            }
+
+            .form__data label {
+                color: rgb(2, 61, 2);
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+
+            option {
+                background-color: rgb(2, 71, 5);
+                color: white;
+            }
+
+            .form__data input {
+                border-bottom: 2px solid rgb(0, 15, 43);
+            }
+
+            .btn__account-data {
+                background-color: rgb(2, 71, 5);
+                color: white;
+            }
+            .btn__account-password {
+                background-color: rgb(2, 71, 5);
+                color: white;
+            }
+
+        }
+        
+    }
+
+}

@@ -1,0 +1,145 @@
+//Appbar
+.appbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    margin-top: 38px;
+    padding-bottom: 4px;
+}
+
+.appbar__area-left {
+    width: 40%;
+}
+
+.appbar__area-right {
+    width: 55%;
+    height: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn__appbar {
+    border: transparent;
+    border-radius: 7px;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.8rem;
+    height: 35px;
+    outline: none;
+    width: 90px;
+    display: block;
+}
+
+form {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form__group {
+    width: 100%;
+}
+
+.form__group:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form__group:nth-of-type(1) input {
+    width: 90%;
+    height: 30px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid black;
+    margin: 20px auto 0 auto;
+}
+
+.form__group:nth-of-type(1) input:focus {
+    outline: none;
+}
+
+.form__group:nth-of-type(1) select {
+    width: 85%;
+    height: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid black;
+    margin: 20px auto 0 auto;
+}
+
+.form__group:nth-of-type(1) select:focus{
+    outline: none;
+}
+
+.form__group textarea {
+    display: block;
+    width: 90%;
+    height: 240px;
+    margin: 20px auto 10px auto;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 1.3rem;
+    border: transparent;
+}
+
+.form__group textarea:focus {
+    outline: none;
+}
+
+.note__picture {
+    width: 160px;
+    height: 160px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.note__picture img {
+    height: 100%;
+    width: 100%;
+}
+
+.delete {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn__delete {
+    background-color: rgb(139, 1, 1);
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media only screen and ( min-width: 768px ) {
+    .btn__appbar {
+        width: 140px;
+        font-size: 1.1rem;
+        
+    }
+
+    .form__group:nth-of-type(1) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .form__group:nth-of-type(1) input {
+        width: 42%;
+    }
+
+    .form__group:nth-of-type(1) select {
+        width: 42%;
+    }
+}

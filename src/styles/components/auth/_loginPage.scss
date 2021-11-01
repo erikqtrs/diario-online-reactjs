@@ -1,0 +1,99 @@
+.login__page {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.login__header {
+    color: lighten($color: #000000, $amount: 10);
+    text-align: center;
+}
+
+.login__form {
+    width: 80%;
+    background-color: white;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: -4px 4px  rgba(148, 195, 240, 0.2) ;
+}
+
+.login__input {
+    margin-top: 15px;
+    height: 1.4rem;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 26);
+    background-color: lighten($color: white, $amount: 10);
+    color: rgb(0, 0, 0);
+}
+.login__input:focus {
+    outline: none;
+}
+
+.btn__login {
+    display: block;
+    width: 100%;
+    margin-top: 18px;
+    background-color: darken($color: rgb(98, 135, 236), $amount: 10);
+    color: white;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.or span {
+    width: 70px;
+    height: 1px;
+    background-color: lighten($color: black, $amount: 30);
+}
+.or h4 {
+    text-align: center;
+    color: black;
+    font-weight: 100;
+}
+
+.google__btn {
+    background-color: rgb(31, 111, 230);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 12px 4px 12px;
+    border-radius: 11px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.google__btn-img {
+    width: 20%;
+    height: 100%;
+}
+
+.google__img {
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+}
+
+.google__btn-text {
+    width: 80%;
+}
+
+.google__text{
+    color: darken($color: white, $amount: 30);
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+@media only screen and ( min-width: 768px ) {
+    .login__form {
+        width: 21.5%;
+    }
+}

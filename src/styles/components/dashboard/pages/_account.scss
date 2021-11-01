@@ -1,0 +1,41 @@
+.account__content-img {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    
+}
+
+.img-content {
+    height: 100%;
+    width: 100%; 
+}
+
+.account-icon {
+    font-size: 8rem;
+    
+}
+
+.account__content-data {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table {
+    width: 90%;
+}
+
+.table__row {
+    height: 50px;
+}
+.table__column {
+    width: 50%;
+}
+
+.table__column:nth-of-type(2) {
+    text-align: right;
+}
+
+.delete__account {
+    width: 70%;
+    margin: 60px auto 0 auto;
+}

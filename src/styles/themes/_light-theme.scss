@@ -1,0 +1,63 @@
+.theme-light {
+    background-color: rgb(189, 188, 188);
+    .header__dashboard {
+        background-color: rgb(189, 188, 188);
+        color: rgb(2, 2, 2);
+        .btn__logout {
+            color: rgb(0, 0, 0);
+            border: 3px solid rgb(2, 2, 2);
+        }
+    }
+
+    .dashboard__content {
+        aside {
+            background-color: rgb(189, 188, 188);
+            color: rgb(0, 0, 0);
+        }
+        .nav__link {
+            color: rgb(0, 0, 0);
+            font-weight: 700;
+            font-size: 1.4rem;
+        }
+        .page__content {
+            background-color: rgb(226, 224, 224);
+            color: rgb(0, 0, 0);
+            .note__entry {
+                background-color: rgb(189, 188, 188);
+                color: rgb(0, 0, 0);
+            }
+            .appbar {
+                background-color: rgb(189, 188, 188);
+                color: rgb(5, 5, 5);
+                .btn__appbar {
+                    border: 2px solid rgb(0, 0, 0);
+                    color: rgb(0, 0, 0);
+                }
+            }
+            input, select {
+                color: rgb(0, 0, 0);
+            }
+
+            .form__data label {
+                color: rgb(0, 15, 43);
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+            .form__data input {
+                border-bottom: 2px solid rgb(0, 15, 43);
+            }
+
+            .btn__account-data {
+                background-color: rgb(0, 14, 39);
+                color: white;
+            }
+            .btn__account-password {
+                background-color: rgb(0, 14, 39);
+                color: white;
+            }
+
+        }
+        
+    }
+
+}

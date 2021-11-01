@@ -1,0 +1,63 @@
+// NotesPage
+.notes__header {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+//NoteEntries
+.notes__entries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+//NoteEntry
+.note__entry {
+    height: 90px;
+    width: 420px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.note__entry-picture {
+    width: 20%;
+    
+}
+
+.note__entry-body {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.note__entry-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.note__entry-date {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    
+}
+
+.note__entry-month {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.note__entry-day {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
