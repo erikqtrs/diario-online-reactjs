@@ -8,3 +8,6 @@ En este diario podras crear una nota editarla solo haciendo clic sobre ella, pon
 
 o eliminar la nota.
 
+Lo pueden ver en el siguiente enlace:
+[Degs Journal](https://clever-meitner-4a508b.netlify.app/)
+
